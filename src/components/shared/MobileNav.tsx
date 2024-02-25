@@ -12,7 +12,7 @@ const MobileNav = () => {
   return (
     <header className="header">
       <Link href={"/"} className="flex items-center gap-2 md:py-2">
-        <p className=" text-2xl">Alterx</p>
+        <p className=" text-2xl">Alterz</p>
       </Link>
       <nav className="flex gap-2">
         <SignedIn>
@@ -24,7 +24,7 @@ const MobileNav = () => {
             </SheetTrigger>
             <SheetContent className="sheet-content sm:w-64">
               <>
-                <p className=" text-2xl">Alterx</p>
+                <p className=" text-2xl">Alterz</p>
                 <ul className="header-nav_elements">
                   {navLinks?.map((link) => {
                     const isActive = link.route === pathname;
