@@ -20,11 +20,6 @@ export const navLinks = [
     icon: "/assets/icons/scan.svg",
   },
   {
-    label: "Object Recolor",
-    route: "/transformations/add/recolor",
-    icon: "/assets/icons/filter.svg",
-  },
-  {
     label: "Background Remove",
     route: "/transformations/add/removeBackground",
     icon: "/assets/icons/camera.svg",

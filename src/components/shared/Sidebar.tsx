@@ -6,6 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 import { Button } from "../ui/button";
+import { BrainCircuit } from "lucide-react";
 
 const Sidebar = () => {
   const pathname = usePathname();
@@ -13,7 +14,8 @@ const Sidebar = () => {
     <aside className="sidebar">
       <div className="flex size-full flex-col gap-4">
         <Link href={"/"} className="sidebar-logo">
-          <p className=" text-2xl">Alterz</p>
+          <p className=" text-2xl">Alterz-AI</p>
+          <BrainCircuit />
         </Link>
 
         <nav className="sidebar-nav">
